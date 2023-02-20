@@ -18,7 +18,8 @@
 		<module>http_basic_auth</module>
 		<module>thymeleaf_crud</module>
 		<module>form_based_auth</module>
-	</modules>
+        <module>form_based_auth_jdbc</module>
+    </modules>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
