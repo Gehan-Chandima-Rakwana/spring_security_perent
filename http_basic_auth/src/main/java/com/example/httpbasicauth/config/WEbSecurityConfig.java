@@ -20,7 +20,7 @@ public class WEbSecurityConfig extends WebSecurityConfigurerAdapter {
                 .roles("ADMIN")
                 .and()
                 .withUser("user")
-                .password("$2a$10$Uehl3Fk79dQ9byQB3FehrOMIGKUoak1PghCiE7DhKKCqFu7Q.QItK")
+                .password("$2a$10$Uehl3Fk79dQ9byQB3FehrOMIGKUoak1PghCiE7DhKKCqFu7Q.QItK") //user
                 .roles("USER");
     }
 
