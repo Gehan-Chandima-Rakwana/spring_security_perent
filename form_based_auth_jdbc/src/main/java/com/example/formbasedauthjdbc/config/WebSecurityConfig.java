@@ -15,7 +15,7 @@ import javax.sql.DataSource;
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    private DataSource dataSource;
+    private DataSource dataSource; //It will read database connection information from the application.properties file.
 
     @Autowired
     public void configAuthentication(AuthenticationManagerBuilder authBuilder) throws Exception {
