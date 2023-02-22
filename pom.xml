@@ -21,6 +21,7 @@
         <module>form_based_auth_jdbc</module>
         <module>form_based_auth_hibernate</module>
         <module>role_based_authorization</module>
+        <module>login_remember_using_cookies</module>
     </modules>
 	<properties>
 		<java.version>17</java.version>
