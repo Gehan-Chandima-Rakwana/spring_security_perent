@@ -15,8 +15,8 @@
 #      client:
 #        registration:
 #          github:
-#            client-id: 37b62af40c709c7d0e48
-#            client-secret: 11f8639c6aec7db4d0665988593ebc8bb7ecce42
+#            client-id:
+#            client-secret:
 #            scope:
 #              - user:email
 #              - read:user
