@@ -1,0 +1,22 @@
+#server:
+#  port: 8080
+#
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/security_food_service
+#    password:
+#    username: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          github:
+#            client-id: 37b62af40c709c7d0e48
+#            client-secret: 11f8639c6aec7db4d0665988593ebc8bb7ecce42
+#            scope:
+#              - user:email
+#              - read:user
